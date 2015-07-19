@@ -1,0 +1,82 @@
+
+/*.grid-view .pager*/
+div.pager {
+    margin: 10px 0 0 0;
+    text-align: right;
+    padding:0;
+    height:30px;
+}
+
+ul.pages {
+    font-size:.9em;
+    padding-top: 5px;
+    line-height:100%;
+    display:inline;
+}
+
+ul.pages li {
+    display:inline;
+    /*color:inherit;*/
+}
+
+ul.pages li a {
+    text-decoration: none;
+    color: #515151;
+    margin-top: 10px;
+
+}
+
+ul.pages li a:link,
+ul.pages li a:visited {
+    border:solid 1px #ccc;
+    color:inherit;
+    /*font-weight:bold;*/
+    padding:2px 8px;
+}
+/*
+ul.pager .page a {
+    font-weight: 200;
+}
+*/
+ul.pages li a:hover {
+    background:#515151;
+    color:#fff;
+}
+
+ul.pages li.page  .selected a {
+    /*
+    background:#e58616;  สีส้ม
+    */
+    background: #515151;
+    color:#fff;
+    font-weight:bold;
+    font-size:1em;
+}
+
+.selected {
+    background: #515151;
+    color:#fff;
+    font-weight:bold;
+    font-size:1em;
+    padding: 2px 0 2px 0;
+}
+
+.hidden {
+    display: none;
+}
+
+/*s
+ul.pages .hidden a {
+    border:1px solid #ccc;
+    color:inherit;
+}
+
+/**
+ * Hide first and last buttons by default.
+ 
+ul.pages .first,
+ul.pages .last
+{
+    display:none;
+}
+*/

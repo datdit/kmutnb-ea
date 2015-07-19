@@ -1,0 +1,9 @@
+Subject: A request to join your group has been made
+
+ถึงคุณ {USERNAME}
+
+ได้มีผู้ขอสมัครเข้าร่วมกลุ่ม "{GROUP_NAME}" ที่คุณดูแลอยู่บนเว็บ "{SITENAME}"
+ให้คลิกที่ลิงค์ด้านล่างนี้ เพื่อทำการอนุญาตหรือปฏิเสธ:
+{U_PENDING}
+
+{EMAIL_SIG}

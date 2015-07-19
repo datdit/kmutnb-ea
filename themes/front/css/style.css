@@ -1,0 +1,817 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font: normal 12px/16px Tahoma, Geneva, sans-serif;
+}
+
+.header {
+    height: 119px;
+    margin: 0 auto;
+    background: #F60 url(../images/header_bg.jpg) bottom repeat-x
+}
+
+.headermain {
+    width: 950px;
+    height: 119px;
+    margin: 0 auto;
+    background: url(../images/bg_right.jpg) bottom right no-repeat
+}
+/*Logo*/
+.logo {
+    height: 119px;
+    float: left
+}
+
+.logo img {
+    border: none;
+    float: left
+}
+
+/* ================= Top Log In*/
+.toplogin {
+    width: 195px;
+    height: 21px;
+    float: right;
+    padding: 1px 35px 0 0;
+    overflow: hidden
+}
+
+.toplogin ul {
+
+}
+
+.toplogin ul li {
+    display: inline;
+    list-style: none;
+    height: 21px
+}
+
+.toplogin ul li a {
+    background: url(../images/top_login_button.jpg);
+    display: block;
+    float: left;
+    height: 0pt;
+    padding: 25px 0 0 0
+}
+
+.toplogin ul li a.loginsite {
+    width: 55px;
+    background-position: 0 0
+}
+
+.toplogin ul li a.loginsite:hover {
+    background-position: 0 -21px
+}
+
+.toplogin ul li a.register {
+    width: 79px;
+    background-position: -52px 0
+}
+
+.toplogin ul li a.register:hover {
+    background-position: -52px -21px
+}
+
+.toplogin ul li a.forgot {
+    width: 60px;
+    background-position: -128px 0
+}
+
+.toplogin ul li a.forgot:hover {
+    background-position: -128px -21px
+}
+
+.toplogin2 {
+    width: 195px;
+    height: 21px;
+    float: right;
+    padding: 1px 35px 0 0;
+    overflow: hidden
+}
+
+.toplogin2 ul {
+
+}
+
+.toplogin2 ul li {
+    display: inline;
+    list-style: none;
+    height: 21px
+}
+
+.toplogin2 ul li a {
+    background: url(../images/top_admin_button.png);
+    display: block;
+    float: left;
+    height: 0pt;
+    padding: 25px 0 0 0
+}
+
+.toplogin2 ul li a.controlpanel {
+    width: 134px;
+    background-position: 0 0
+}
+
+.toplogin2 ul li a.controlpanel:hover {
+    background-position: 0 -21px
+}
+
+.toplogin2 ul li a.logout {
+    width: 60px;
+    background-position: -128px 0
+}
+
+.toplogin2 ul li a.logout:hover {
+    background-position: -128px -21px
+}
+
+#main-menu {
+    height: 30px;
+    width: 100%;
+    background-color: #000;
+}
+
+#in-main-menu {
+    margin: 0 auto;
+    width: 1010px;
+}
+
+#breadCrumb {
+    width: 100%;
+}
+
+/*  =================  Slide */
+#slidecontainer {
+    width: 520px;
+    height: 350px;
+    position: relative;
+    float: left
+}
+
+/* ================= Partdition*/
+.navcontain ul li span {
+    width: 5px;
+    height: 30px;
+    float: left;
+    background: url(../images/nav_button.jpg);
+    background-position: -58px 0;
+    display: block;
+    margin: 0 3px
+}
+
+/* ================= Style Title*/
+.headtitleorange {
+    width: 500px;
+    float: left;
+    padding: 5px 10px;
+    background: #F60;
+    font-size: 12px
+}
+
+.headtitleorangemini {
+    width: 500px;
+    float: left;
+    padding: 1px 10px;
+    background: #F60
+}
+
+.headtitleblack {
+    width: 505px;
+    float: left;
+    padding: 7px 10px 8px 5px;
+    background: #000;
+    font-size: 14px;
+    color: #F60
+}
+
+.headtitleblack_right {
+    width: 375px;
+    float: left;
+    padding: 5px 10px;
+    background: #000;
+    font-size: 12px;
+    color: #F60
+}
+
+.headtitleblack_right_part {
+    width: 172px;
+    float: left;
+    padding: 5px 10px;
+    background: #000;
+    font-size: 12px;
+    color: #F60
+}
+
+.sub_head {
+    font-size: 16px;
+    font-weight: bold;
+    width: 515px;
+    border-bottom: 1px solid #CCC;
+    border-top: 1px solid #CCC;
+    background-color: #E3E3E3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+/* ================= Container*/
+.warpper {
+    margin: 0 auto;
+    background: url(../images/bg_body_shadow.jpg) center repeat-y;
+    overflow: hidden
+}
+
+.warppage {
+    width: 950px;
+    margin: 0 auto
+}
+
+/* ================= Left Column*/
+.leftcolumn {
+    width: 520px;
+    float: left;
+    padding: 10px
+}
+
+.modelreadboximg {
+    width: 520px;
+    float: left
+}
+
+.modelread {
+    width: 520px;
+    float: left
+}
+
+.modelreadtxt {
+    width: 520px;
+    float: left;
+    padding: 10px 0
+}
+
+/* ================= H Title*/
+.titlenews {
+    padding: 10px 0 10px 0;
+    font-size: 14px;
+    float: left
+}
+
+.title_news_gallery {
+    background: url(../images/title_gallery_news.gif) no-repeat;
+    width: 236px;
+    height: 0px;
+    padding: 30px 0 0 0;
+    display: block;
+    overflow: hidden
+}
+
+/*  ================= banner news */
+.banner-news {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #666;
+    height: 20px;
+    width: 515px;
+    background-color: #E3E3E3;
+    padding-top: 3px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+/* ================= Gallry news Update*/
+div.newsgallery {
+    width: 520px;
+    float: left;
+    margin-top: 10px;
+}
+
+div.newsgallery img {
+    margin: 0 0 5px 5px;
+    border: 1px solid #CCC;
+    width: 120px;
+    height: 80px;
+}
+/*
+div.newsgallery ul{}
+div.newsgallery ul li{list-style:none; float:left; padding:5px}
+div.newsgallery ul li a{}
+*/
+
+/* ================= Featured*/
+.featured {
+    width: 520px;
+    float: left
+}
+
+/* ================= List News*/
+.listbox {
+    width: 520px;
+    float: left;
+    padding: 10px 0 0 0
+}
+
+.listtab {
+    width: 520px;
+    float: left;
+    padding: 10px 0 0 0
+}
+
+.listbox_right {
+    width: 395px;
+    float: left;
+    margin: 0 0 10px 0
+}
+
+.listbox_right_part {
+    width: 192px;
+    float: left;
+    margin: 0 0 10px 0
+}
+
+.listbox_right_part_right {
+    width: 192px;
+    float: left;
+    margin: 0 0 10px 10px
+}
+
+ul.listnews {
+    width: 507px;
+    float: left;
+    border-bottom: #CCC 1px solid;
+    border-left: #CCC 1px solid;
+    border-right: #CCC 1px solid;
+    padding: 10px 0 0 10px
+}
+
+ul.listnews li {
+    list-style: none;
+    float: left;
+    padding: 0 0 10px 0;
+    width: 510px;
+    display: block
+}
+
+ul.listnews li img {
+    border: #000 1px solid;
+    float: left
+}
+
+ul.listnews li div.containtxt {
+    float: left;
+    width: 365px;
+    padding: 0 0 0 10px;
+    height: 82px;
+    background: url(../images/bg_txt_list.jpg) bottom repeat-x
+}
+
+ul.listnews li div.containtxt h4 {
+    line-height: 16px;
+    width: 360px;
+    float: left;
+    display: block;
+    font-size: 12px
+}
+
+ul.listnews li div.containtxt p {
+    float: left;
+    display: block;
+    width: 360px;
+    font-size: 11px;
+    font-weight: normal
+}
+
+ul.listnews li a {
+    color: #666;
+    text-decoration: none;
+    display: block
+}
+
+ul.listnews li a:hover {
+    color: #333;
+    text-decoration: underline
+}
+
+
+/* ================= List User */
+.listUser {
+    width: 518px;
+    float: left;
+    /*	padding: 5px 0 0 0;*/
+    border-bottom: 1px dashed #CCC;
+    margin: 5px 0 5px 0;
+}
+
+.listUser  img {
+    /* padding   :  up right down left */
+    padding: 0 5px 5px 0;
+    /* border: #000 1px solid; */
+    float: left;
+    width: 45px;
+    height: 45px;
+}
+
+.listUser b {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.listUser p {
+    font-size: 12px;
+}
+
+.listUser  a {
+    color: #006699;
+    text-decoration: none;
+}
+
+.listUser a:hover {
+    color: #333;
+    text-decoration: underline
+}
+
+/*  =================  Business View */
+
+.userView {
+    width: 507px;
+    float: left;
+    padding: 10px 0 0 0;
+    line-height: 18px;
+}
+.userView p {
+    margin-top: 8px;
+}
+.userView img {
+    /* padding   :  up right down left */
+    padding: 0 5px 5px 0;
+    /* border: #000 1px solid; */
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.userViewText {
+    margin-left: 60px;
+    width:450px;
+}
+
+
+/* ================= List Business*/
+.listbusi {
+    width: 518px;
+    float: left;
+    /*	padding: 5px 0 0 0;*/
+    border-bottom: 1px dashed #CCC;
+    margin: 5px 0 5px 0;
+}
+
+.listbusi img {
+    /* padding   :  up right down left */
+    padding: 0 5px 5px 0;
+    /* border: #000 1px solid; */
+    float: left;
+    width: 80px;
+    height: 50px;
+}
+
+.listbusi b {
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.listbusi p {
+    font-size: 12px;
+}
+
+.listbusi  a {
+    color: #666;
+    text-decoration: none;
+}
+
+.listbusi a:hover {
+    color: #333;
+    text-decoration: underline
+}
+
+.vote_cnt {
+    color: #333;
+}
+
+/*  =================  Business View */
+
+.busiView {
+    width: 507px;
+    float: left;
+    padding: 10px 0 0 0;
+    line-height: 18px;
+}
+.busiView img {
+    /* padding   :  up right down left */
+    padding: 0 5px 5px 0;
+    /* border: #000 1px solid; */
+    float: left;
+    width: 80px;
+    height: 50px;
+}
+
+.busiViewText {
+    margin-left: 90px;
+    width:400px;
+}
+
+/* ================= List Rigth*/
+ul.listright {
+    width: 373px;
+    float: left;
+    border-bottom: #CCC 1px solid;
+    border-left: #CCC 1px solid;
+    border-right: #CCC 1px solid;
+    padding: 10px 10px 0
+}
+
+ul.listright li {
+    list-style: none;
+    float: left;
+    padding: 0 0 5px 10px;
+    background: url(../images/arrow_1.gif) no-repeat;
+    background-position: 0 6px;
+    width: 373px
+}
+
+ul.listright li img {
+    border: #000 1px solid;
+    float: left
+}
+
+ul.listright li div.containtxt {
+    float: left;
+    width: 285px;
+    padding: 0 0 0 10px
+}
+
+ul.listright li div.containtxt h4 {
+    line-height: 20px
+}
+
+ul.listright li a {
+    color: #666;
+    text-decoration: none;
+    display: block
+}
+
+ul.listright li a:hover {
+    color: #333;
+    text-decoration: underline
+}
+/* ================= Box Right*/
+.container_right {
+    width: 373px;
+    float: left;
+    border-bottom: #CCC 1px solid;
+    border-left: #CCC 1px solid;
+    border-right: #CCC 1px solid;
+    padding: 10px;
+    margin: 0 0 10px 0
+}
+
+.container_right_part {
+    width: 170px;
+    float: left;
+    border-bottom: #CCC 1px solid;
+    border-left: #CCC 1px solid;
+    border-right: #CCC 1px solid;
+    padding: 10px;
+}
+/* ================= History*/
+.containphoto {
+    float: left;
+    width: 170px
+}
+
+.containphoto img {
+    float: left;
+    border: none
+}
+
+.detail_photo {
+    float: left;
+    width: 170px;
+    padding: 10px 0 0 0
+}
+
+.detail_photo a {
+    color: #333;
+    text-decoration: none
+}
+
+.detail_photo a:hover {
+    color: #000;
+    text-decoration: underline
+}
+
+.addboard {
+    float: left;
+    padding: 10px 10px 0 0;
+    text-align: right
+}
+
+.addboard img {
+    border: none
+}
+
+.more {
+    float: left;
+    width: 170px;
+    padding: 10px 0 0 0;
+    text-align: right
+}
+
+.more img {
+    border: none
+}
+/* ================= Right Column*/
+.rightcolumn {
+    width: 395px;
+    float: right;
+    padding: 10px 10px 10px 0
+}
+/*List Member*/
+.boxlastmember {
+    float: left;
+    width: 170px
+}
+
+ul.listmember {
+    float: left;
+    width: 170px
+}
+
+ul.listmember li {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 170px;
+    padding: 0 0 5px 0
+}
+
+ul.listmember li p.activename a {
+    color: #666;
+    font-size: 12px;
+}
+
+ul.listmember img {
+    float: left;
+    padding: 0 5px 0 0
+}
+
+ul.listmember li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 15px
+}
+/*listboad*/
+ul.listboard {
+    float: left;
+    width: 500px
+}
+
+ul.listboard li {
+    list-style: none;
+    float: left;
+    width: 500px;
+    padding: 0 0 10px 25px;
+    background: url(../images/bullet.gif) no-repeat
+}
+
+ul.listboard li a {
+    color: #000
+}
+
+ul.listboard li p.boxcommentpost {
+    float: left;
+    width: 500px;
+    padding: 10px 0;
+    background: url(../images/view_post.jpg) no-repeat
+}
+
+.readthis {
+    color: #900;
+    font-size: 11px
+}
+
+.postthis {
+    color: #F30;
+    font-size: 11px
+}
+
+.postby {
+    padding: 10px 0 0 0;
+}
+
+.postbytxt {
+    font-size: 11px
+}
+
+.postby img {
+    float: left;
+    padding: 0 5px 0 0
+}
+
+.moresee {
+    float: right;
+    display: block;
+}
+/* ================= List Mini Video*/
+ul.listvideo {
+    float: left;
+    width: 170px;
+    padding: 5px 0 0 0
+}
+
+ul.listvideo li {
+    list-style: none;
+    font-size: 11px;
+    padding: 0 0 5px 0;
+    float: left;
+    width: 170px
+}
+
+ul.listvideo li img {
+    float: left;
+    padding: 0 5px 0 0
+}
+
+ul.listvideo li a {
+
+}
+/**/
+/* ================= Search Input*/
+#searchinput {
+    background: url(../images/field_bg_shadow.gif) no-repeat scroll 0 0
+        white;
+    border-color: #888D95 #C8C8C4 #E3E3E3;
+    border-style: solid;
+    border-width: 1px;
+    color: #444444;
+    float: left;
+    font-size: 0.9em;
+    margin-right: 8px;
+    padding: 2px;
+    width: 95px;
+}
+/* ================= Footer*/
+.bannerrow {
+    width: 930px;
+    padding: 5px;
+    float: left
+}
+
+.bannerrow img {
+    float: left;
+}
+
+ul.bottombanner {
+    width: 920px;
+    float: left;
+    padding: 0 0 0 10px
+}
+
+ul.bottombanner li {
+    list-style: none;
+    padding: 5px;
+    display: block;
+    float: left
+}
+
+ul.bottombanner li img {
+    float: left;
+    border: none;
+    width: 80px;
+    height: 50px;
+}
+
+ul.bottombanner li a {
+
+}
+
+.img_but_ban {
+    float: left;
+    border: none;
+    padding: 10px;
+}
+
+.footer {
+    height: 119px;
+    margin: 0 auto;
+    background: #F60 url(../images/bg_footer.jpg) center bottom no-repeat
+}
+
+/* =================   Clear All  */
+.clear {
+    clear: both;
+}

@@ -1,0 +1,17 @@
+﻿Subject: Activate user account
+
+ถึงคุณ {USERNAME}
+
+ชื่อบัญชีของ "{USERNAME}" ได้ถูกระงับชั่วคราว หรือเพิ่งจะถูกสร้างขึ้นใหม่
+คุณควรตรวจสอบรายละเอียดของชื่อผู้ใช้นี้ (ถ้าจำเป็น)
+
+คุณสามารถดูข้อมูลส่วตตัวของผู้ใช้นี้ได้ที่ลิงค์ด้านล่างนี้:
+{U_USER_DETAILS}
+
+คุณสามารถทำการยืนยันบัญชีของผู้ใช้นี้ได้ที่ลิงค์ด้านล่างนี้:
+{U_ACTIVATE}
+
+{EMAIL_SIG}
+
+Use this link to view the user's profile and activate the account:
+{U_VERIFY}

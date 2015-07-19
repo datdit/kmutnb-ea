@@ -1,0 +1,1262 @@
+2013/01/01 10:53:03 [error] [exception.CException] exception 'CException' with message 'Alias "application.modules.ExtensionModule.extensions.cleditor.ECLEditor" is invalid. Make sure it points to an existing PHP file and the file is readable.' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:318
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWidgetFactory.php(147): YiiBase::import('application.mod...', true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(MainController), 'application.mod...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(173): CBaseController->createWidget('application.mod...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/main/index.php(79): CBaseController->widget('application.mod...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): CController->render('index', Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Index')
+#14 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/Index')
+#15 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/Index
+---
+2013/01/01 10:58:11 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.sc" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CModule.php(106): CComponent->__get('sc')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/layouts/main.php(52): CModule->__get('sc')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/Applications/X...', Array, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(207): COutputProcessor->run()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/views/layouts/column1.php(6): CBaseController->endContent()
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(785): CBaseController->renderFile('/Applications/X...', Array, true)
+#13 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): CController->render('index', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#15 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#17 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Index')
+#19 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/Index')
+#20 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#21 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/Index
+---
+2013/01/01 10:59:06 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "actionCGridView".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('actionCGridView', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(32): MainController->actionCGridView()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionShowData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('showdata')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/showdata')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/showdata
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Main/Index
+---
+2013/01/01 10:59:10 [error] [php] include(Group.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(13): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): GroupController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): GroupController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): GroupController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php (13)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/01 11:00:49 [error] [php] include(Group.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(13): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): GroupController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): GroupController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): GroupController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index&_=1357038049096
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php (13)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/01 11:00:51 [error] [php] include(Group.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(13): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): GroupController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): GroupController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): GroupController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index&_=1357038051679
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php (13)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/01 11:00:52 [error] [php] include(Group.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(13): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): GroupController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): GroupController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): GroupController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index&_=1357038052607
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php (13)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/01 11:00:53 [error] [php] include(Group.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(13): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): GroupController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): GroupController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): GroupController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index&_=1357038053441
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php (13)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/01 11:00:54 [error] [php] include(Group.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(13): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): GroupController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): GroupController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): GroupController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index&_=1357038054145
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php (13)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/01 11:09:07 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "actionCGridView".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('actionCGridView', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(32): MainController->actionCGridView()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionShowData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('showdata')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/showdata')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/showdata
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/01 11:31:37 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "actionCGridView".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('actionCGridView', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(32): MainController->actionCGridView()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionShowData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('showdata')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/showdata')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/showdata
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/01 15:40:58 [error] [exception.CException] exception 'CException' with message 'Property "GroupController.crumbs" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/layouts/column1.php(3): CComponent->__get('crumbs')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(785): CBaseController->renderFile('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(22): CController->render('GroupList', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionIndex()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Index')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Index')
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/01 15:41:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloWorld/UpdateAjax".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('helloWorld/Upda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=helloWorld/UpdateAjax&_=1357054897293
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Test
+---
+2013/01/01 15:41:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloWorld/UpdateAjax".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('helloWorld/Upda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=helloWorld/UpdateAjax&_=1357054898067
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Test
+---
+2013/01/01 15:41:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloWorld/UpdateAjax".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('helloWorld/Upda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=helloWorld/UpdateAjax&_=1357054908277
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Test/index
+---
+2013/01/01 15:41:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloWorld/UpdateAjax".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('helloWorld/Upda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=helloWorld/UpdateAjax&_=1357054909489
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Test/index
+---
+2013/01/01 15:41:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloWorld/UpdateAjax".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('helloWorld/Upda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=helloWorld/UpdateAjax&_=1357054910112
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Test/index
+---
+2013/01/01 15:41:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloWorld/UpdateAjax".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('helloWorld/Upda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=helloWorld/UpdateAjax&_=1357054911855
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Test/index
+---
+2013/01/01 15:41:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "helloWorld/UpdateAjax".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('helloWorld/Upda...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=helloWorld/UpdateAjax&_=1357054917780
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Test/index
+---
+2013/01/01 15:44:05 [error] [exception.CException] exception 'CException' with message 'Property "MainController.portlets" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/layouts/column2.php(7): CComponent->__get('portlets')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(785): CBaseController->renderFile('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): CController->render('index', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('index')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/index')
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/01 15:44:07 [error] [exception.CException] exception 'CException' with message 'Property "MainController.portlets" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/layouts/column2.php(7): CComponent->__get('portlets')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(785): CBaseController->renderFile('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): CController->render('index', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('index')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/index')
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/01 15:44:53 [error] [exception.CException] exception 'CException' with message 'Property "MainController.portlets" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/layouts/column2.php(7): CComponent->__get('portlets')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(785): CBaseController->renderFile('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): CController->render('index', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('index')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/index')
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/01 15:48:55 [error] [exception.CException] exception 'CException' with message 'Property "MainController.portlets" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/main/index.php(5): CComponent->__get('portlets')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(870): CBaseController->renderFile('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): CController->renderPartial('index', Array, true)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): CController->render('index', Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('index')
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/index')
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/01 16:01:41 [error] [exception.CException] exception 'CException' with message 'Property "GroupController.crumbs" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:131
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/layouts/column1.php(3): CComponent->__get('crumbs')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(785): CBaseController->renderFile('/Applications/X...', Array, true)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(22): CController->render('GroupList', Array)
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionIndex()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Index')
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Index')
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/01 16:16:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "kmutnb-ea/index.php?r=Main/index".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php:287
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('kmutnb-ea/index...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=kmutnb-ea/index.php?r=Main/index
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/01 16:18:30 [error] [exception.CException] exception 'CException' with message 'Property "BreadCrumb.firstCrumbName" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:174
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWidgetFactory.php(162): CComponent->__set('firstCrumbName', 'The Beginning')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(MainController), 'application.com...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(173): CBaseController->createWidget('application.com...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/layouts/main.php(58): CBaseController->widget('application.com...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(785): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): CController->render('index', Array)
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('index')
+#13 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/index')
+#14 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#15 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/01 16:18:39 [error] [exception.CException] exception 'CException' with message 'Property "BreadCrumb.firstCrumbName" is not defined.' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:174
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWidgetFactory.php(162): CComponent->__set('firstCrumbName', 'The Beginning')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(147): CWidgetFactory->createWidget(Object(GroupController), 'application.com...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(173): CBaseController->createWidget('application.com...', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/layouts/main.php(58): CBaseController->widget('application.com...', Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/widgets/CContentDecorator.php(77): CBaseController->renderFile('/Applications/X...', Array, true)
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/widgets/CContentDecorator.php(55): CContentDecorator->decorate(' ? ?<div id="co...')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/widgets/COutputProcessor.php(45): CContentDecorator->processOutput(' ? ?<div id="co...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(207): COutputProcessor->run()
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/layouts/column1.php(9): CBaseController->endContent()
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require('/Applications/X...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Applications/X...', Array, true)
+#14 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(785): CBaseController->renderFile('/Applications/X...', Array, true)
+#15 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(22): CController->render('GroupList', Array)
+#16 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionIndex()
+#17 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#18 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#19 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Index')
+#21 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Index')
+#22 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#23 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/05 08:28:43 [error] [exception.CException] exception 'CException' with message 'GroupController cannot find the requested view "Group/Index".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): CController->renderPartial('Group/Index', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(54): CController->render('Group/Index', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionForm()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Form')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Form')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Form
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/05 08:29:30 [error] [exception.CException] exception 'CException' with message 'GroupController cannot find the requested view "Group/Index".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): CController->renderPartial('Group/Index', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(54): CController->render('Group/Index', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionForm()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Form')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Form')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Form
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/05 08:30:05 [error] [exception.CException] exception 'CException' with message 'GroupController cannot find the requested view "GroupFrom".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): CController->renderPartial('GroupFrom', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(54): CController->render('GroupFrom', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionForm()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Form')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Form')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Form
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/05 08:30:07 [error] [exception.CException] exception 'CException' with message 'GroupController cannot find the requested view "GroupFrom".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): CController->renderPartial('GroupFrom', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(54): CController->render('GroupFrom', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionForm()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Form')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Form')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Form
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/05 08:30:17 [error] [exception.CException] exception 'CException' with message 'GroupController cannot find the requested view "GroupFrom".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php:879
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): CController->renderPartial('GroupFrom', Array, true)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(54): CController->render('GroupFrom', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionForm()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Form')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Form')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Form
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/05 08:30:40 [error] [php] include(Form.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/group/GroupForm.php(46): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): GroupController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(870): GroupController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): GroupController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(54): GroupController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionForm()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): GroupController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): GroupController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): GroupController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Form
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/group/GroupForm.php (46)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php (54)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/05 09:54:12 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/helpers/CHtml.php:85)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/helpers/CHtml.php(140): renderAttributes()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/helpers/CHtml.php(1135): tag()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/helpers/CHtml.php(567): inputField()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/group/GroupForm.php(54): textField()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): GroupController->renderInternal()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(870): GroupController->renderFile()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): GroupController->renderPartial()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php(54): GroupController->render()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): GroupController->actionForm()
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): GroupController->runAction()
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): GroupController->runActionWithFilters()
+#13 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): GroupController->run()
+#14 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#15 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#16 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Form
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/group/GroupForm.php (54)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/GroupController.php (54)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/07 16:09:30 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "actionCGridView".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('actionCGridView', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(33): MainController->actionCGridView()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionShowData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('showdata')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/showdata')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/showdata
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/07 16:09:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Index1".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(271): CController->missingAction('Index1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Index1')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Index1')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index1
+HTTP_REFERER=http://localhost/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/07 16:18:57 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "actionCGridView".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('actionCGridView', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(33): MainController->actionCGridView()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionShowData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('showdata')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/showdata')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/showdata
+HTTP_REFERER=http://192.168.0.16/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/07 16:21:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Index1".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(271): CController->missingAction('Index1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Index1')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Index1')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index1
+HTTP_REFERER=http://192.168.0.16/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/08 17:03:09 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "actionCGridView".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CComponent.php:266
+Stack trace:
+#0 [internal function]: CComponent->__call('actionCGridView', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(33): MainController->actionCGridView()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionShowData()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('showdata')
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Main/showdata')
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/showdata
+HTTP_REFERER=http://192.168.0.16/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/08 17:23:17 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/main/index.php(11): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): MainController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(870): MainController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): MainController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(21): MainController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/main/index.php (11)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (21)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:23:17 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/main/index.php(11): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(127): require()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CBaseController.php(96): MainController->renderInternal()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(870): MainController->renderFile()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(783): MainController->renderPartial()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(21): MainController->render()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#9 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#10 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#11 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#12 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#13 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/themes/admin/views/main/index.php (11)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (21)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:24:05 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(18): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (18)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:24:05 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(18): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (18)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:24:06 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(18): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (18)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:24:06 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(18): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (18)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:24:06 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(18): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (18)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:24:07 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(18): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (18)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:24:41 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:24:41 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:25:16 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:25:18 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:30:20 [error] [php] include(Browser.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (/Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/YiiBase.php:423)
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php(20): spl_autoload_call()
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/actions/CInlineAction.php(50): MainController->actionIndex()
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(309): CInlineAction->runWithParams()
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(287): MainController->runAction()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(266): MainController->runActionWithFilters()
+#5 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): MainController->run()
+#6 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController()
+#7 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#8 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/index
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/protected/controllers/MainController.php (20)
+in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php (13)
+2013/01/08 17:31:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Index1".' in /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php:484
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CController.php(271): CController->missingAction('Index1')
+#1 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(283): CController->run('Index1')
+#2 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/web/CWebApplication.php(142): CWebApplication->runController('Group/Index1')
+#3 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#4 /Applications/XAMPP/xamppfiles/htdocs/kmutnb-ea/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index1
+HTTP_REFERER=http://192.168.0.16/kmutnb-ea/index.php?r=Group/Index
+---
+2013/01/09 06:08:13 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "actionCGridView".' in D:\xampp\htdocs\kmutnb-ea\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\protected\controllers\MainController.php(34): CComponent->__call('actionCGridView', Array)
+#1 D:\xampp\htdocs\kmutnb-ea\protected\controllers\MainController.php(34): MainController->actionCGridView()
+#2 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): MainController->actionShowData()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('showdata')
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('Main/showdata')
+#8 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\kmutnb-ea\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/showdata
+HTTP_REFERER=http://localhost:81/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/09 06:13:57 [error] [php] Object of class ECLEditor could not be converted to string (D:\xampp\htdocs\kmutnb-ea\themes\admin\views\Group\GroupForm.php:75)
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): GroupController->renderFile()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(783): GroupController->renderPartial()
+#2 D:\xampp\htdocs\kmutnb-ea\protected\controllers\GroupController.php(51): GroupController->render()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): GroupController->actionForm()
+#4 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): GroupController->runAction()
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): GroupController->runActionWithFilters()
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): GroupController->run()
+#8 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\kmutnb-ea\index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Form
+in D:\xampp\htdocs\kmutnb-ea\themes\admin\views\Group\GroupForm.php (75)
+in D:\xampp\htdocs\kmutnb-ea\protected\controllers\GroupController.php (51)
+in D:\xampp\htdocs\kmutnb-ea\index.php (13)
+2013/01/09 06:26:20 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "actionCGridView".' in D:\xampp\htdocs\kmutnb-ea\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\protected\controllers\MainController.php(34): CComponent->__call('actionCGridView', Array)
+#1 D:\xampp\htdocs\kmutnb-ea\protected\controllers\MainController.php(34): MainController->actionCGridView()
+#2 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): MainController->actionShowData()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('showdata')
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('Main/showdata')
+#8 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\kmutnb-ea\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/showdata
+HTTP_REFERER=http://localhost:81/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/09 06:26:35 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "actionCGridView".' in D:\xampp\htdocs\kmutnb-ea\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\protected\controllers\MainController.php(34): CComponent->__call('actionCGridView', Array)
+#1 D:\xampp\htdocs\kmutnb-ea\protected\controllers\MainController.php(34): MainController->actionCGridView()
+#2 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): MainController->actionShowData()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('showdata')
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('Main/showdata')
+#8 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\kmutnb-ea\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/showdata
+HTTP_REFERER=http://localhost:81/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/09 06:26:46 [error] [exception.CException] exception 'CException' with message 'MainController and its behaviors do not have a method or closure named "actionCGridView".' in D:\xampp\htdocs\kmutnb-ea\framework\base\CComponent.php:266
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\protected\controllers\MainController.php(34): CComponent->__call('actionCGridView', Array)
+#1 D:\xampp\htdocs\kmutnb-ea\protected\controllers\MainController.php(34): MainController->actionCGridView()
+#2 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): MainController->actionShowData()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('showdata')
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('Main/showdata')
+#8 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 D:\xampp\htdocs\kmutnb-ea\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Main/showdata
+HTTP_REFERER=http://localhost:81/kmutnb-ea/index.php?r=Main/index
+---
+2013/01/09 06:28:24 [error] [php] Undefined variable: form (D:\xampp\htdocs\kmutnb-ea\themes\admin\views\Group\GroupList.php:80)
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): GroupController->renderFile()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(783): GroupController->renderPartial()
+#2 D:\xampp\htdocs\kmutnb-ea\protected\controllers\GroupController.php(22): GroupController->render()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): GroupController->actionIndex()
+#4 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): GroupController->runAction()
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): GroupController->runActionWithFilters()
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): GroupController->run()
+#8 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 D:\xampp\htdocs\kmutnb-ea\index.php(13): CWebApplication->run()
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Index
+in D:\xampp\htdocs\kmutnb-ea\themes\admin\views\Group\GroupList.php (80)
+in D:\xampp\htdocs\kmutnb-ea\protected\controllers\GroupController.php (22)
+in D:\xampp\htdocs\kmutnb-ea\index.php (13)
+2013/01/10 05:54:34 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.validateOnSubmit" is not defined.' in D:\xampp\htdocs\kmutnb-ea\framework\base\CComponent.php:174
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\web\CWidgetFactory.php(162): CComponent->__set('validateOnSubmi...', true)
+#1 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(GroupController), 'CActiveForm', Array)
+#2 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 D:\xampp\htdocs\kmutnb-ea\themes\admin\views\Group\GroupForm.php(53): CBaseController->beginWidget('CActiveForm', Array)
+#4 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(783): CController->renderPartial('GroupForm', Array, true)
+#8 D:\xampp\htdocs\kmutnb-ea\protected\controllers\GroupController.php(67): CController->render('GroupForm', Array)
+#9 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): GroupController->actionForm()
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('Form')
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('Group/Form')
+#15 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 D:\xampp\htdocs\kmutnb-ea\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=Group/Form
+HTTP_REFERER=http://localhost:81/kmutnb-ea/index.php?r=Group/Form
+---
+2013/01/30 02:39:49 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'kmutnbea_admin'@'localhost' (using password: YES)' in D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(NewsCon))
+#7 D:\xampp\htdocs\kmutnb-ea\protected\models\NewsCon.php(6): CActiveRecord::model('NewsCon')
+#8 D:\xampp\htdocs\kmutnb-ea\themes\front\views\Home\index.php(21): NewsCon::model()
+#9 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#11 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(783): CController->renderPartial('index', NULL, true)
+#13 D:\xampp\htdocs\kmutnb-ea\protected\controllers\HomeController.php(6): CController->render('index')
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\kmutnb-ea\index.php(28): CApplication->run()
+#22 {main}
+REQUEST_URI=/kmutnb-ea/
+---
+2013/06/24 04:05:45 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'kmutnbea_admin'@'localhost' (using password: YES)' in D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(UserRegis))
+#7 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(403): CActiveRecord::model('UserRegis')
+#8 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 D:\xampp\htdocs\kmutnb-ea\protected\controllers\RegisController.php(18): CActiveRecord->__construct()
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): RegisController->actionRegister()
+#11 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('Register')
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('/Regis/Register')
+#16 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#18 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=/Regis/Register
+HTTP_REFERER=http://localhost:81/kmutnb-ea/index.php?r=/Regis/Login
+---
+2013/06/24 04:05:54 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'kmutnbea_admin'@'localhost' (using password: YES)' in D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(User))
+#7 D:\xampp\htdocs\kmutnb-ea\protected\models\User.php(9): CActiveRecord::model('User')
+#8 D:\xampp\htdocs\kmutnb-ea\protected\components\UserLast.php(16): User::model()
+#9 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(174): UserLast->run()
+#10 D:\xampp\htdocs\kmutnb-ea\themes\front\views\layouts\main.php(250): CBaseController->widget('UserLast', Array)
+#11 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate(' ?? ??<div id="...')
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput(' ?? ??<div id="...')
+#16 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(207): COutputProcessor->run()
+#17 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#18 D:\xampp\htdocs\kmutnb-ea\themes\front\views\layouts\column1.php(9): CBaseController->endContent()
+#19 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#20 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#21 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(785): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#22 D:\xampp\htdocs\kmutnb-ea\protected\controllers\RegisController.php(47): CController->render('/Regis/login', Array)
+#23 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): RegisController->actionLogin()
+#24 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#25 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#26 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('Login')
+#28 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('/Regis/Login')
+#29 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#30 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#31 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=/Regis/Login
+HTTP_REFERER=http://localhost:81/kmutnb-ea/index.php?r=Home/UserListAll
+---
+2013/06/24 04:06:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'kmutnbea_admin'@'localhost' (using password: YES)' in D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(NewsCon))
+#7 D:\xampp\htdocs\kmutnb-ea\protected\models\NewsCon.php(6): CActiveRecord::model('NewsCon')
+#8 D:\xampp\htdocs\kmutnb-ea\themes\front\views\Home\index.php(22): NewsCon::model()
+#9 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#11 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(783): CController->renderPartial('/Home/index', NULL, true)
+#13 D:\xampp\htdocs\kmutnb-ea\protected\controllers\HomeController.php(14): CController->render('/Home/index')
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#22 {main}
+REQUEST_URI=/kmutnb-ea/
+---
+2013/06/24 04:06:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'kmutnbea_admin'@'localhost' (using password: YES)' in D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(NewsCon))
+#7 D:\xampp\htdocs\kmutnb-ea\protected\models\NewsCon.php(6): CActiveRecord::model('NewsCon')
+#8 D:\xampp\htdocs\kmutnb-ea\themes\front\views\Home\index.php(22): NewsCon::model()
+#9 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#11 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(783): CController->renderPartial('/Home/index', NULL, true)
+#13 D:\xampp\htdocs\kmutnb-ea\protected\controllers\HomeController.php(14): CController->render('/Home/index')
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#22 {main}
+REQUEST_URI=/kmutnb-ea/
+---
+2013/06/24 05:48:16 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(NewsCon))
+#7 D:\xampp\htdocs\kmutnb-ea\protected\models\NewsCon.php(6): CActiveRecord::model('NewsCon')
+#8 D:\xampp\htdocs\kmutnb-ea\themes\front\views\Home\index.php(22): NewsCon::model()
+#9 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#11 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(783): CController->renderPartial('/Home/index', NULL, true)
+#13 D:\xampp\htdocs\kmutnb-ea\protected\controllers\HomeController.php(14): CController->render('/Home/index')
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#22 {main}
+REQUEST_URI=/kmutnb-ea/
+---
+2013/07/24 14:08:02 [warning] [application] Failed to set unsafe attribute "banner" of "Business".
+in D:\xampp\htdocs\kmutnb-ea\protected\controllers\UserController.php (101)
+in D:\xampp\htdocs\kmutnb-ea\index.php (30)
+2013/09/13 09:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Delete".' in D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php:484
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(271): CController->missingAction('Delete')
+#1 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('Delete')
+#2 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('User/Delete')
+#3 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#5 {main}
+REQUEST_URI=/kmutnb-ea/index.php?r=User/Delete&id=163
+HTTP_REFERER=http://localhost:81/kmutnb-ea/index.php?r=User/UserListAll
+---
+2014/05/05 12:15:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'kmutnbea_db'' in D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 D:\xampp\htdocs\kmutnb-ea\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(NewsCon))
+#7 D:\xampp\htdocs\kmutnb-ea\protected\models\NewsCon.php(6): CActiveRecord::model('NewsCon')
+#8 D:\xampp\htdocs\kmutnb-ea\themes\front\views\Home\index.php(22): NewsCon::model()
+#9 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#11 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(783): CController->renderPartial('/Home/index', NULL, true)
+#13 D:\xampp\htdocs\kmutnb-ea\protected\controllers\HomeController.php(14): CController->render('/Home/index')
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#22 {main}
+REQUEST_URI=/kmutnb-ea/
+---
+2014/05/06 17:02:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'phpbb3'' in D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(104): CModule->getComponent('phpbbDB')
+#4 D:\xampp\htdocs\kmutnb-ea\themes\front\views\Home\ForumList2.php(9): CModule->__get('phpbbDB')
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#8 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\CTabView.php(216): CController->renderPartial('/Home/ForumList...', NULL)
+#9 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\CTabView.php(147): CTabView->renderBody()
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(174): CTabView->run()
+#11 D:\xampp\htdocs\kmutnb-ea\themes\front\views\Home\index.php(133): CBaseController->widget('CTabView', Array)
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#13 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(783): CController->renderPartial('/Home/index', NULL, true)
+#16 D:\xampp\htdocs\kmutnb-ea\protected\controllers\HomeController.php(14): CController->render('/Home/index')
+#17 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#18 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#19 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#20 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('')
+#22 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#23 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#25 {main}
+REQUEST_URI=/kmutnb-ea/
+---
+2014/05/24 19:12:06 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[42000] [1049] Unknown database 'phpbb3'' in D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php:382
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 D:\xampp\htdocs\kmutnb-ea\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(388): CDbConnection->init()
+#3 D:\xampp\htdocs\kmutnb-ea\framework\base\CModule.php(104): CModule->getComponent('phpbbDB')
+#4 D:\xampp\htdocs\kmutnb-ea\themes\front\views\Home\ForumList2.php(9): CModule->__get('phpbbDB')
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#8 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\CTabView.php(216): CController->renderPartial('/Home/ForumList...', NULL)
+#9 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\CTabView.php(147): CTabView->renderBody()
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(174): CTabView->run()
+#11 D:\xampp\htdocs\kmutnb-ea\themes\front\views\Home\index.php(133): CBaseController->widget('CTabView', Array)
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#13 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', NULL, true)
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(870): CBaseController->renderFile('D:\xampp\htdocs...', NULL, true)
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(783): CController->renderPartial('/Home/index', NULL, true)
+#16 D:\xampp\htdocs\kmutnb-ea\protected\controllers\HomeController.php(14): CController->render('/Home/index')
+#17 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#18 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#19 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#20 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('')
+#22 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#23 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#25 {main}
+REQUEST_URI=/kmutnb-ea/
+---
+2014/05/25 16:49:03 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isUser" is not defined.' in D:\xampp\htdocs\kmutnb-ea\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\web\auth\CWebUser.php(141): CComponent->__get('isUser')
+#1 D:\xampp\htdocs\kmutnb-ea\themes\front\views\layouts\main.php(73): CWebUser->__get('isUser')
+#2 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate(' ?? ??<div id="...')
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput(' ?? ??<div id="...')
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\kmutnb-ea\themes\front\views\layouts\column1.php(9): CBaseController->endContent()
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(785): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\kmutnb-ea\protected\controllers\HomeController.php(14): CController->render('/Home/index')
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#22 {main}
+REQUEST_URI=/kmutnb-ea/
+---
+2014/05/25 16:53:15 [error] [exception.CException] exception 'CException' with message 'Property "CWebUser.isUser" is not defined.' in D:\xampp\htdocs\kmutnb-ea\framework\base\CComponent.php:131
+Stack trace:
+#0 D:\xampp\htdocs\kmutnb-ea\framework\web\auth\CWebUser.php(141): CComponent->__get('isUser')
+#1 D:\xampp\htdocs\kmutnb-ea\themes\front\views\layouts\main.php(73): CWebUser->__get('isUser')
+#2 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#3 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#4 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#5 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate(' ?? ??<div id="...')
+#6 D:\xampp\htdocs\kmutnb-ea\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput(' ?? ??<div id="...')
+#7 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 D:\xampp\htdocs\kmutnb-ea\themes\front\views\layouts\column1.php(9): CBaseController->endContent()
+#10 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(127): require('D:\xampp\htdocs...')
+#11 D:\xampp\htdocs\kmutnb-ea\framework\web\CBaseController.php(96): CBaseController->renderInternal('D:\xampp\htdocs...', Array, true)
+#12 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(785): CBaseController->renderFile('D:\xampp\htdocs...', Array, true)
+#13 D:\xampp\htdocs\kmutnb-ea\protected\controllers\HomeController.php(14): CController->render('/Home/index')
+#14 D:\xampp\htdocs\kmutnb-ea\framework\web\actions\CInlineAction.php(50): HomeController->actionIndex()
+#15 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 D:\xampp\htdocs\kmutnb-ea\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(283): CController->run('')
+#19 D:\xampp\htdocs\kmutnb-ea\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#20 D:\xampp\htdocs\kmutnb-ea\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 D:\xampp\htdocs\kmutnb-ea\index.php(30): CApplication->run()
+#22 {main}
+REQUEST_URI=/kmutnb-ea/
+---

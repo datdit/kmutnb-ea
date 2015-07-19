@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+div.loading {
+    background-color: #5a5a5a;
+    background-image: url('../images/ajax-loader.gif');
+    background-position:  center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+}
+div.loading * {
+    opacity: .5;
+}
+
+body {
+    font-family: Tahoma, Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    color:#333333;
+}
+a{
+    text-decoration: none;
+}
+.clear { clear: both; }
+
+#my_footer{
+    width: 100%;
+    color: #5a5a5a;
+    text-align: center;
+    padding: 10px 0;
+    height: 100px;
+}
+
+#my_body{
+    background-color: #ffffff;
+    width: 100%;
+    height: 100%
+}
+
+#my_header{
+    width: 100%;
+    /*
+    background: url('../images/admin/top_bg.png') repeat-x left top;
+    */
+    background-color: #3075af;
+}
+#my_header .top{
+    height: 60px;
+    margin-bottom: 0px;
+    background: url('./images/head-back.png');
+}
+#my_header div.top_nav_left{
+    float:left;
+    width:300px;
+    height: 60px;
+    /*background: url('../images/admin/admin_banner.png') no-repeat left top;*/
+}
+
+#my_header div.top_nav_right{
+    float:right;
+    width:200px;
+    height: 30px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+#my_header div.top_nav_right img{
+    width:30px;
+    margin-top: 5px;
+}
+
+
+#main-menu{
+    height: 30px; /*Height of top section*/
+    margin-bottom: 10px;
+}
+
+/*----- content -----*/
+
+#formtitle{
+    background-color: #fff;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #888888;
+    margin-bottom: 15px;
+}
+#formtitle .title{
+    float:left;
+    margin-top:5px;
+    color:#000;
+    font-size:20px;
+    font-weight: bold;
+    /*text-shadow: 0.05em 0.05em #C3C3C3;*/
+}
+#formtitle .title_detail{
+    float:left;
+    margin-top:7px;
+    margin-left: 10px;
+    color: #7C7C7C;
+    font-size:14px;
+}
+
+/* for IE */
+* html #formtitle .title_detail{
+    margin-top:-14px;
+}
+
+#formtitle .title_menu{
+    float:right;
+}
+
+#my_content{
+    padding: 0;
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    /*background-color: #ebebf5;*/
+}
+#my_content2{
+    padding: 0;
+    margin: auto;
+    margin: 10px;
+}
+
+/*หัว Grid สำหรับค้นหา
+.gridview_search{
+    border-left: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+    border-bottom:none;
+    color: #5a5a5a;
+    background: #dfdfdf url(../images/admin/wbg.gif) repeat-x scroll top left;
+    height:28px;
+    padding:4px;
+}
+*/
+/*------------------- Form Style --------------------*/
+input.txt,input.txt_r,textarea{
+    border-color:#7C7C7C #C3C3C3 #DDDDDD;
+    border-style:solid;
+    border-width:1px;
+    color:#333333;
+    padding: 3px;
+    border: #b4b1aa 1px solid;
+    height: 25px;
+}
+option{
+    padding:2px;
+}
+input.txt_r{
+    background-color: #ebebeb;
+    padding: 5px;
+}
+label.lbl2{
+    border:medium none;
+    color:#222222;
+    background-color: #e8e8ff;
+    padding:0.2em;
+    margin-left: 4px;
+}
+.focus {
+    background-color: #fffff4;
+}
+span.required{
+    color:#ff8080;
+    font-weight: bold;
+    font-size:14px;
+}
+.comment{
+    color: #aeaeae;
+}
+input.right{
+    text-align:right;
+}
+fieldset {
+    padding: 4px 4px 10px 4px;
+    border:1px solid #b1b1b1;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+legend { font-weight: bold; color: #333333;margin-left: 10px;padding:2px}
+
+
+.tblform{
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+.tblform tr{
+    border-bottom:1px solid #e9e9e9;
+}
+
+.tblform tr.trHead{
+    border-top: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    height: 30px;
+    background-color:#e9e9e9;
+}
+.tblform td.tdHead{
+    text-align: left;
+    padding-left: 5px;
+    font-size: 16px;
+}
+.headBullet {
+    background: url('../images/bullet.png') no-repeat right;
+}
+
+.tblform tr.noline{
+    border:none;
+}
+.tblform td input.txt{
+    width:350px;
+}
+
+.tblform td{
+    padding: 5px 0 5px 0;
+}
+/*
+.tblform .tdHead{
+    font-weight: bold;
+    font-size: 14px;
+    text-align:left;
+    color: #333333;
+    background-color: #cccccc;
+    padding-right: 10px;
+    vertical-align: top;
+    padding-left: 150px;
+}
+*/
+
+.tblform .td1{
+    /*font-weight: bold;*/
+    font-size: 12px;
+    text-align: right;
+    color:#666666;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+.tblform .td2{
+    padding-left: 4px;
+    /* font-weight: bold;*/
+    color: blue;
+}
+.tblform .tdInput input {
+    height: 25px;
+    font-size: 12px;
+}
+
+/*
+#loading{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    z-index: 1111;
+    padding: 10px;
+    background:url('../images/ajax-loader.gif') no-repeat left center #ffc;
+    border: solid 4px #c9c9c9;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+*/
+
+
+/* div Form */
+.divform{
+    border: 1px solid #cccccc;
+    background-color: #f5f5f5;
+    padding: 4px 20px;
+}
+
+/* Error */
+.errorMessage{
+    font-size: 12px;
+    color : red;
+    text-shadow: none;
+}
+
+.errorSummary {
+    border: 1px solid crimson;
+    background-color: #FFE0E1;
+    color: #5a5a5a;
+    padding: 4px 20px;
+    margin-bottom: 10px;
+}
+
+.errorSummary p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.errorSummary ul {
+    padding-left: 15px;
+}
+
+/* คำอธิบาย Cbutton ใน CGridView */
+.CbuttonDetail {
+   float: right;
+   margin-top: 3px;
+   height: 50px;
+}
+
+/*------- FrontBox WEB --------*/
+div#front_box{
+    border: 1px solid #cdcdcd;
+    background-color: #f5f5f5;
+}
+div#front_box .title{
+    display: block;
+    padding:4px;
+    font-size: 13px;
+    font-weight: bold;
+    color:#ffffff;
+    background-color: #3075af;
+    background: url('../images/admin/top_bg.png') repeat-x left top;
+}
+div#front_box .content{
+    margin:10px;
+    padding:10px 10px 0 10px;
+    border: 1px solid #e4e4e4;
+    background-color: #ffffff;
+}
+table.tbl_front_box{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.tbl_front_box td{
+    padding: 0 0 10px 0;
+}
+.holder_wrap{
+    position:relative;
+    width: 100%
+}
+.holder_wrap .pic{
+    float:left;
+    text-align: left;
+    padding: 2px;
+    margin-right: 5px;
+}
+.holder_wrap .pic img{
+    border:1px solid #dbdbdb;
+}
+.holder_wrap .info{
+    margin:0;
+    text-align:left;
+    overflow:hidden; /** เพิ่มลงไป **/
+}
+.holder_wrap a.info_title{
+    font-size: 13px;
+    font-weight: bold;
+    color:#3b5998;
+    text-decoration: underline;
+}
+.holder_wrap a.info_title:hover,.holder_wrap a.info_title:active,.holder_wrap a.info_title:focus{
+    color:#ff5b0d;
+}
+.writted,.writted_navtree{
+    font-size: 11px;
+    color:#888888;
+    line-height: 1.8em;
+}
+.writted_navtree a{
+    font-size: 12px;
+    color:#3b5998;
+    text-decoration: none;
+}
+.writted_navtree a:hover,.writted_navtree a:active,.writted_navtree a:focus{
+    color:#ff5b0d;
+}

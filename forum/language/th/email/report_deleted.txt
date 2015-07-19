@@ -1,0 +1,8 @@
+Subject: Report deleted - "{POST_SUBJECT}"
+
+ถึงคุณ {USERNAME}
+
+คุณได้รับการแจ้งเตือนนี้ เพราะรายงานที่คุณแจ้งเกี่ยวกับข้อความ "{POST_SUBJECT}" ในหัวข้อ "{TOPIC_TITLE}" ที่เว็บ "{SITENAME}"
+ได้ถูกลบโดยผู้ดูแลบอร์ดแล้ว
+
+{EMAIL_SIG}

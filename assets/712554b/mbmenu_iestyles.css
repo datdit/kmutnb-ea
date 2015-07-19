@@ -1,0 +1,3 @@
+#nav-bar, #nav { zoom:1; }
+#nav ul li, #nav ul li.active { float:left; clear:left; width:185px; border-right: 1px solid #C3C3C3; }
+#nav ul a span { zoom:1; }

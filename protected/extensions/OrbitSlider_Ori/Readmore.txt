@@ -1,0 +1,14 @@
+This widget is based on Orbit Slider based on JQuery.
+
+Please check the demo of Orbit Slider at 
+
+http://www.htmldrive.net/items/show/667/jQuery-Countdown-Image-Slider-Plugin.html
+
+Need help, please contact me at 
+
+me@perochak.com
+
+skypy : amjad.mghl
+
+www.perochak.com
+

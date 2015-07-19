@@ -1,0 +1,8 @@
+Subject: Report closed - "{POST_SUBJECT}"
+
+ถึงคุณ {USERNAME}
+
+คุณได้รับการแจ้งเตือนนี้ เพราะรายงานที่คุณแจ้งเกี่ยวกับข้อความ "{POST_SUBJECT}" ในหัวข้อ "{TOPIC_TITLE}" ที่เว็บ "{SITENAME}"
+ได้ถูกปิดแล้ว ถ้าคุณมีข้อสงสัย กรุณาส่งข้อความส่วนตัวไปหา {CLOSER_NAME}
+
+{EMAIL_SIG}
